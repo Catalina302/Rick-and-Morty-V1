@@ -1,0 +1,53 @@
+
+body{
+    background-color: rgb(252, 249, 249);
+}
+
+.sec-flex{
+    display: flex;
+    align-items: center;
+}
+
+.sec-flex img{
+    
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    
+}
+
+.flex-child{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5%;
+    width: 40%;
+    border: 2px;
+    color: rgb(167, 17, 42) solid;
+    height: 350px;
+}
+
+.flex-child img{
+    width: 30%;
+}
+
+.flex-child p{
+    width: 60%;
+}
+
+.container{
+    font-family: 'Gayathri', sans-serif; 
+}
+
+.container h1{
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.sec-flex img{
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(167, 17, 42) solid;
+    
+    
+}
+

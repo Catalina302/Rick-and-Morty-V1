@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Gayathri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="main-menu"> 
+        <!--etiqueta ul ==> Nos permite crear listas no ordenadas.-->
+       
+            <img src="./imagenes/rick.jpg" width="100" height="100">
+        
+        <ul class="main-menu opt-menu"> 
+            <li><a>Inicio</a></li>
+            <li><a href="./Sobre_mi.html" target="_blank" >sobre mi</a></li>
+            <li><a href="./contac.html" target="_blank" >Contactenos</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Formulario contacto</h1>
+
+        <form method="GET" action="" class="form-flex">
+
+
+            <div class="input-form"> 
+                <div>  <label> Nombre </label> </div>
+                <input id="Nombre" name="nombre" type="text" required>
+             </div>
+
+             <div class="input-form">
+                <div> <label for="apellido">Apellido</label></div>
+                 <input id="apellido" name="apellido" type="text" required>
+            </div>
+
+            <div class="input-form">
+                <div>   
+                <label for="edad">Edad</label>
+            </div>
+                <input id="edad" name="edad" type="number" required>
+             </div>
+
+             <dive class="input-form">
+               <div>
+                    <label for="email">Correo electronico</label> 
+                </div>
+                <input id="email" name="email" type="email">
+            </dive>
+
+            <div class="input-form">
+                <div> 
+                     <label for="contrasena">Contraseña</label>
+                    </div>
+                <input id="contrasena" name="contrasena" type="password">
+            </div>
+
+            <div class="input-form">
+                <div> 
+                     <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                    </div>
+                <input id="fechaNacimiento" type="date">
+
+            </div>
+
+            <div>
+                
+                     <label for="mujer">Mujer</label>
+                    
+                <input id="mujer" name="genero"  type="radio">
+                
+                    <label for="hombre">Hombre</label>
+                <input id="hombre" name="genero" type="radio">
+            </div>
+
+            <div class="input-form">
+                <h4>Deporte favorito</h4>
+                <input id="futbol" name="futbol" type="checkbox">
+                    <label form="futbol"> Futbol</label> 
+                <input id="ciclismo" name="ciclismo" type="checkbox">
+                    <label form="ciclismo"> ciclismo</label>
+                    <input id="voleiball" name="voleiball" type="checkbox">
+                    <label form="voleiball"> voleiball</label> 
+                <input id="tenis" name="tenis" type="checkbox">
+                    <label form="tenis"> Tenis</label>
+            </div>
+
+
+            <div class="form-button">
+                <button type="submit">Enviar </button>
+            </div>
+
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
+

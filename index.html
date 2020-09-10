@@ -1,0 +1,127 @@
+<!DOCTYPE html>  <!-- comentarios, doctype permite especificar la version de html que se utilizara -->
+<html lang="en"> <!-- Encierra todo el codigo html, lang indica el idioma-->
+<head> <!-- meta chatset: caracteres especiales, meta viewport: que se permita adaptar el contenido al ancho del dispositivo-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rick and Morty</title> <!--titulo -->
+    <link rel="icon" type="imagen/jpg" href="./imagenes/rick.jpg"> <!--rel: relacion de logo-->
+    <!--<style>
+        h2{
+            color:blueviolet
+        }
+    </style>>-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head> 
+
+
+<body>  
+    <nav class="main-menu"> 
+        <!--etiqueta ul ==> Nos permite crear listas no ordenadas.-->
+       
+            <img src="./imagenes/rick.jpg" width="100" height="100">
+        
+        <ul class="main-menu opt-menu"> 
+            <li><a>Inicio</a></li>
+            <li><a href="./Sobre_mi.html" target="_blank" >sobre mi</a></li>
+            <li><a href="./contac.html" target="_blank" >Contactenos</a></li>
+        </ul>
+        <!--ol ==> Listas ordenadas-->
+        <!--<ol>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+        </ol>-->
+    </nav>
+
+
+    <div class="container">
+        <h1> Personajes de Rick and Morty</h1>
+        
+        
+        <section class="main-charecters">
+        <article class="charecters">
+            <header>
+                <div id="mensaje2"><h2>Jerry</h2></div>
+                
+            </header>
+            <img src="./imagenes/Jerry.jpeg" alt="Jerry" width="250" height="200">
+            <div>
+                <p><b>Genero:</b>Masculino </p>
+                <p><b>Especie:</b>Humano</p>
+
+                 <button><a onclick="cambiarMensaje('mensaje2')">Cambiar mensaje</a>
+            </div>
+        </article>
+
+        <article class="charecters">
+            <header>
+                <div id="mensaje3"><h2>Arthricia</h2></div>
+                
+            </header>
+            <img src="./imagenes/Arthricia.jpeg" alt="Arthricia" Width="250" height="200">
+            <div>
+                <p><b>Genero:</b>Femenino</p>
+                <p><b>Especie:</b>Dog</p>
+
+             <button><a onclick="cambiarMensaje('mensaje3')">Cambiar mensaje</a>
+            </div>
+        </article>
+
+        <article class="charecters">
+            <header>
+                <div id="mensaje4"><h2>Benjamin</h2></div>
+                
+            </header>
+            <img src="./imagenes/Benjamin.jpeg" alt="Benjamin" Width="250" height="200">
+            <div>
+                <p><b>Genero:</b>Masculino</p>
+                <p><b>Especie:</b>Humano</p>
+
+                <button><a onclick="cambiarMensaje('mensaje4')">Cambiar mensaje</a>
+            </div>
+        </article>
+
+        <article class="charecters">
+            <header>
+                <div id="mensaje5"><h2>Beth</h2></div>
+                
+            </header>
+            <img src="./imagenes/Beth.jpeg" alt="Beth" Width="250" height="200">
+            <div>
+                <p><b>Genero:</b>Femenino</p>
+                <p><b>Especie:</b>Humano</p>
+                <button><a onclick="cambiarMensaje('mensaje5')">Cambiar mensaje</a>
+            </div>
+        </article>
+
+        <article class="charecters">
+            <header>
+                <div id="mensaje6"><h2>Blim Blam</h2></div>
+                
+            </header>
+            <img src="./imagenes/BlimBlam.jpeg" alt="Blim Blam" Width="250" height="200">
+            <div>
+                <p><b>Genero:</b>Masculino</p>
+                <p><b>Especie:</b>Extraterrestre</p>
+                <button><a onclick="cambiarMensaje('mensaje6')">Cambiar mensaje</a>
+            </div>
+        </article>
+
+    </section>
+   </div>
+
+   <footer>
+       <p> Hecho con <i class="fas fa-heart"></i> por Catalina Lopez</p>
+   </footer>
+
+   <script src="./scrips.js"> </script>    
+</body> 
+
+</html>
+<!--<div class="flex-content"> padre div, las imagenes son los hijos
+    <img style="flex-grow:2; align-self: stretch;"src="https://picsum.photos/id/1025/200/200" alt="">
+    <img src="https://picsum.photos/id/237/200/200" alt="">
+    <img src="https://picsum.photos/id/211/400/300" alt="">
+</div>-->
+
